@@ -1,0 +1,12 @@
+{
+  "name": "azure-devops-acr-sample",
+  "version": "1.0.0",
+  "description": "Sample app for Azure DevOps to ACR pipeline",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
