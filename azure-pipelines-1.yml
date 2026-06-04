@@ -31,7 +31,7 @@ stages:
     - task: AzureCLI@2
       displayName: 'Build and Push via ACR Tasks (Serverless Build)'
       inputs:
-        azureSubscription: $(azureServiceConnection)
+        azureSubscription: ${{ variables.azureServiceConnection }}
         scriptType: 'bash'
         scriptLocation: 'inlineScript'
         inlineScript: |
