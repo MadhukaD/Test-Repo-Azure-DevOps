@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8080;
 app.get('/', (req, res) => {
     res.json({
         status: "success",
-        message: "Hello from Azure Container Registry!",
+        message: "Hello from Azure Container Registry! Have a great day!",
         timestamp: new Date()
     });
 });
